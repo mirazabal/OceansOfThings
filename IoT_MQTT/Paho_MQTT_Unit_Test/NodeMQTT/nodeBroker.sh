@@ -5,6 +5,6 @@
 		echo "Node already running"
 else
     echo "Restarting Node:     $(date)" 
-	node NodeMQTT/mosca-app.js &
+	node ~/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/mosca-app.js &
 	sleep 7     
 fi
