@@ -1,0 +1,43 @@
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/jemalloc/test/integration/overflow.c:39]: (error) Deallocating a deallocated pointer: p
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/jemalloc/test/unit/decay.c:97]: (error) Common realloc mistake: 'p' nulled but not freed upon failure
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/node_modules/leveldown/deps/leveldb/port-libuv/win_logger.cc:50]: (error) va_list 'backup_ap' used before va_start() was called.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/node_modules/leveldown/deps/leveldb/port-libuv/win_logger.cc:51]: (error) va_list 'backup_ap' used before va_start() was called.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/node_modules/leveldown/deps/leveldb/port-libuv/win_logger.cc:52]: (error) va_list 'backup_ap' used before va_start() was called.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/deps/hiredis/hiredis.c:839]: (error) va_list '_cpy' used before va_start() was called.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/deps/hiredis/hiredis.c:846]: (error) va_list '_cpy' used before va_start() was called.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/deps/hiredis/sds.c:1023]: (error) Common realloc mistake: 'vector' nulled but not freed upon failure
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/deps/jemalloc/test/integration/overflow.c:39]: (error) Deallocating a deallocated pointer: p
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/db.c:457]: (error) Uninitialized variable: key
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/geo.c:729]: (error) Shifting by a negative value is undefined behaviour
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/hyperloglog.c:998]: (error) Uninitialized variable: E
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2246]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2410]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2437]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2514]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2543]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/quicklist.c:2564]: (error) Signed integer overflow for expression '-5157318210846258176+i'.
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/redis-cli.c:2021]: (error) Possible null pointer dereference: types
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/redis-cli.c:2036]: (error) Possible null pointer dereference: types
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/redis-cli.c:2047]: (error) Possible null pointer dereference: sizes
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/redis-cli.c:2062]: (error) Possible null pointer dereference: sizes
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/redis-cli.c:2064]: (error) Possible null pointer dereference: sizes
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/replication.c:1206]: (error) va_list 'ap' was opened but not closed by va_end().
+[IoT_MQTT/Paho_MQTT_Unit_Test/NodeMQTT/redis-stable/src/t_hash.c:415]: (error) Uninitialized variable: dst
+[IoT_MQTT/src/paho.mqtt.c/src/MQTTPersistenceDefault.c:102]: (error) Undefined behavior: Variable 'pCrtDirName' is used as parameter and destination in s[n]printf().
+[IoT_MQTT/src/paho.mqtt.c/src/MQTTVersion.c:103]: (error) Resource leak: infile
+[IoT_MQTT/src/paho.mqtt.c/test/python/mqttasync_module.c:210]: (error) Memory leak: e
+[IoT_MQTT/src/paho.mqtt.c/test/python/mqttasync_module.c:252]: (error) Memory leak: e
+[IoT_MQTT/src/paho.mqtt.c/test/python/mqttclient_module.c:134]: (error) Memory leak: e
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:53683]: (error) Possible null pointer dereference: pbOpen
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:96929]: (error) Possible null pointer dereference: pName2
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:99055]: (error) Possible null pointer dereference: pName2
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:101239]: (error) Possible null pointer dereference: pName2
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:115134]: (error) Possible null pointer dereference: pDistinct
+[NMEA_0183/SQLite/sqlite_src/sqlite3.c:128284]: (error) Possible null pointer dereference: pDistinct
+[NMEA_0183/src_original/nmea/load_parser.c:91]: (error) Memory leak: parser
+[NMEA_0183/src_original/nmea/load_parser.c:98]: (error) Memory leak: parser
+[NMEA_0183/src_original/nmea/load_parser.c:103]: (error) Memory leak: parser
+[NMEA_0183/src_original/nmea/load_parser.c:108]: (error) Memory leak: parser
+[NMEA_0183/src_original/nmea/load_parser.c:113]: (error) Memory leak: parser
+[NMEA_0183/src_original/nmea/load_parser.c:118]: (error) Memory leak: parser
+(information) Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information.
