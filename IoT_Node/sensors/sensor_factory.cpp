@@ -2,7 +2,7 @@
 #include <assert.h>
 
 sensor_factory::sensor_factory(){
-	static_assert(false, "abstract factory constructor called");
+	//static_assert(false, "abstract factory constructor called");
 }
 
 
