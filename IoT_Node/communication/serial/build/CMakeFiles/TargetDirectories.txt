@@ -1,0 +1,4 @@
+/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/test.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/edit_cache.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/rebuild_cache.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/serial.dir
