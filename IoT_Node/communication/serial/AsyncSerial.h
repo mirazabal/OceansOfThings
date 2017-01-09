@@ -1,18 +1,18 @@
 #ifndef ASYNCSERIAL_H
 #define	ASYNCSERIAL_H
 
-#include <functional>
-#include <vector>
 #include <boost/asio.hpp>
-//#include <boost/bind.hpp>
-#include <boost/thread.hpp>
-#include <boost/utility.hpp>
-#include <boost/function.hpp>
-#include <boost/shared_array.hpp>
+
+#include <functional>
+#include <memory>
+#include <vector>
+
+namespace serial
+{
 
 class AsyncSerialImpl;
 
-class AsyncSerial: private boost::noncopyable
+class AsyncSerial // : private boost::noncopyable
 {
 public:
     AsyncSerial();
@@ -41,6 +41,8 @@ public:
             boost::asio::serial_port_base::stop_bits(
                 boost::asio::serial_port_base::stop_bits::one));
 
+	AsyncSerial( AsyncSerial const&) = delete;
+	AsyncSerial& operator=( AsyncSerial const&) = delete;
 
 	virtual ~AsyncSerial()=0;
     
@@ -91,21 +93,6 @@ public:
      */
     void write(const char *data, size_t size);
 
-     /**
-     * Write data asynchronously. Returns immediately.
-     * \param data to be sent through the serial device
-     */
-    void write(const std::vector<char>& data);
-
-    /**
-    * Write a string asynchronously. Returns immediately.
-    * Can be used to send ASCII data to the serial device.
-    * To send binary data, use write()
-    * \param s string to send
-    */
-    void writeString(const std::string& s);
-
-
     /**
      * Read buffer maximum size
      */
@@ -144,7 +131,7 @@ private:
      */
     void doClose();
 
-    boost::shared_ptr<AsyncSerialImpl> pimpl;
+    std::unique_ptr<AsyncSerialImpl> pimpl;
 
 protected:
 
@@ -160,5 +147,7 @@ protected:
     void setReadCallback(std::function<void (const char*, size_t)> const& callback);
 
 };
+
+}
 
 #endif //ASYNCSERIAL_H

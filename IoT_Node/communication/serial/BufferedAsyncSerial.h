@@ -4,11 +4,16 @@
  * Distributed under the Boost Software License, Version 1.0.
  * Created on January 6, 2011, 3:31 PM
  */
-
-#include "AsyncSerial.h"
-
 #ifndef BUFFEREDASYNCSERIAL_H
 #define	BUFFEREDASYNCSERIAL_H
+
+
+#include "AsyncSerial.h"
+//#include <boost/mutex.hpp> 
+#include <boost/thread.hpp>
+
+namespace serial
+{
 
 class BufferedAsyncSerial: public AsyncSerial
 {
@@ -95,5 +100,7 @@ private:
     std::vector<char> readQueue;
     boost::mutex readQueueMutex;
 };
+
+} // namespace serial
 
 #endif //BUFFEREDASYNCSERIAL_H

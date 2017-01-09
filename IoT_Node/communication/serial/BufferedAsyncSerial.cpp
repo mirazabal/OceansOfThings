@@ -14,10 +14,8 @@
 
 using namespace std;
 using namespace boost;
+using namespace serial;
 
-//
-//Class BufferedAsyncSerial
-//
 
 BufferedAsyncSerial::BufferedAsyncSerial(): AsyncSerial()
 {
