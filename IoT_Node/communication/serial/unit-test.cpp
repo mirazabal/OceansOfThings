@@ -26,6 +26,24 @@ namespace
 			virtual ~Serial_TEST(){};
 
 			virtual void SetUp(){
+				/*
+				try{
+		
+					serial::CallbackAsyncSerial c( portName, portSpeed);
+
+						std::function< void ( const char* data, size_t size) > fp = [](const char* d, size_t t){
+						std::string str(d,t);
+						std::cout << str << std::endl;
+					};
+					c.setCallback( fp );
+					std::this_thread::sleep_for(std::chrono::seconds(30) );
+
+				}catch(...)
+				{
+
+					int a = 0;
+				}
+				*/
 			}
 
 			virtual void TearDown(){
@@ -41,30 +59,21 @@ namespace
 		static constexpr auto const portSpeed{115200};
 
 		if(c == nullptr){
-			system("~/workspace/OceansOfThings/IoT_Node/communication/serial/portSimulator/portSimulator.sh");
 			ASSERT_NO_THROW(c = std::make_unique<serial::CallbackAsyncSerial>(portName, portSpeed) );		
 		}
 	}
 
 	TEST_F(Serial_TEST, set_callback_ )
 	{
-		if(c == nullptr){
-			static constexpr auto const portName{"/dev/pts/20"};
-			static constexpr auto const portSpeed{115200};
-
-			ASSERT_NO_THROW(c = std::make_unique<serial::CallbackAsyncSerial>(portName, portSpeed) );		
-		}
-
 		std::function< void ( const char* data, size_t size) > fp = [](const char* d, size_t t){
 			std::string str(d,t);
 			std::cout << str << std::endl;
 		};
-		
-		c->setCallback(fp);
-		
-		system("~/workspace/OceansOfThings/IoT_Node/communication/serial/portSimulator/portSimulator.sh");
 
-		std::this_thread::sleep_for(std::chrono::seconds(3));
+		c->setCallback(fp);
+		system("./portSimulator/portSimulator.sh");
+
+		std::this_thread::sleep_for(std::chrono::seconds(30) );
 
 	}
 
