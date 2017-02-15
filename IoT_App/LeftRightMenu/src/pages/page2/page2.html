@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+	<ion-tittle>Page Two</ion-tittle>
+	<ion-buttons start>
+		<button ion-button menuToggle="leftMenu">
+			<ion-icon name="menu"></ion-icon>
+		</button>
+	</ion-buttons>
+
+	<ion-buttons end>
+		<button ion-button menuToggle="rightMenu">
+			<ion-icon name="menu"></ion-icon>
+		</button>
+
+	</ion-buttons>
+
+<!--  
+	  <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page Two</ion-title>
+-->
+
+  </ion-navbar>
+</ion-header>
+
+
+
+
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-icon [name]="item.icon" item-left></ion-icon>
+      {{item.title}}
+      <div class="item-note" item-right>
+        {{item.note}}
+      </div>
+    </button>
+  </ion-list>
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.title}}</b>
+  </div>
+</ion-content>
