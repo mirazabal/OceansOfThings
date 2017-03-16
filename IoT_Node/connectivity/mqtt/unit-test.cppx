@@ -1,0 +1,49 @@
+#include <iostream>
+#include <string>
+#include <thread>	// For sleep
+#include <chrono>
+
+
+#include "connectivity/mqtt/mqtt_endpoint.h"
+
+#include "gtest/gtest.h"
+
+namespace
+{
+	class MQTT_ASYNC_TEST : public ::testing::Test 
+	{
+		protected:
+			virtual ~MQTT_ASYNC_TEST(){};
+	
+			virtual void SetUp(){
+#ifdef _WIN32
+
+#elif defined __unix__
+				system("./NodeMQTT/nodeBroker.sh");
+#elif defined __APPLE__
+
+#endif
+			}
+
+			virtual void TearDown(){
+			}
+			
+			mirazabal::mqtt_end::mqtt_endpoint endpoint_;
+	};
+
+	TEST_F(MQTT_ASYNC_TEST, connect )
+	{
+		endpoint_.connect("tcp://localhost:1883" );
+		endpoint_.emit("published" , "Machnovsina");
+		std::this_thread::sleep_for(std::chrono::seconds(10));
+		endpoint_.disconnect();
+	}
+
+}// end of namespace
+
+int main(int argc, char **argv)
+{	
+	::testing::InitGoogleTest(&argc,argv);
+	return RUN_ALL_TESTS();
+};
+

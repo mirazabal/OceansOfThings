@@ -1,0 +1,4 @@
+/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles/test.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles/edit_cache.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles/rebuild_cache.dir
+/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles/iot_node.dir

@@ -8,20 +8,34 @@ extern "C"
 #include "gprmc/gprmc.h"
 };
 
+#include "../../communication/serial/CallbackAsyncSerial.h"
+#include <memory>
+#include <stdexcept>
+
+using namespace std;
+
 struct  NMEA_0183_sensor::Impl
 {
 	public:
+		Impl(): gpgll_{nullptr}, gpgga_{nullptr}, gprmc_{nullptr}, serialPort_{nullptr}
+		{}
+
 		void parse_modules();
 		void free_parsed_modules();	
+	
+		void initSerialPort();
+		void setSerialPortCallback(function<void(const char*, size_t)> const&);
 	private:
 		void parse_module_gpgga();
 		void parse_module_gpggl();
 		void parse_module_gprmc();
 
-		// old style nice C ...
+		// nice C ...
 		nmea_parser_module_t* gpgll_; 
 		nmea_parser_module_t* gpgga_;
 		nmea_parser_module_t* gprmc_;
+		
+		unique_ptr< serial::CallbackAsyncSerial> serialPort_;
 };
 
 void NMEA_0183_sensor::Impl::parse_modules()
@@ -41,7 +55,6 @@ void NMEA_0183_sensor::Impl::free_parsed_modules()
 	gprmc_ = NULL;
 }
 
-
 void NMEA_0183_sensor::Impl::parse_module_gpggl()
 {
 	gpgll_ = (nmea_parser_module_t*)malloc(sizeof( nmea_parser_module_t));
@@ -55,7 +68,7 @@ void NMEA_0183_sensor::Impl::parse_module_gpggl()
 void NMEA_0183_sensor::Impl::parse_module_gpgga()
 {
 	gpgga_ = (nmea_parser_module_t*)malloc(sizeof( nmea_parser_module_t));
-	ASSERT_FALSE( NULL == gpgga_);
+	assert( NULL != gpgga_);
 	gpgga_->allocate_data = &allocate_data_GPGGA;
 	gpgga_->set_default = &set_default_GPGGA;
 	gpgga_->free_data = &free_data_GPGGA;
@@ -66,7 +79,7 @@ void NMEA_0183_sensor::Impl::parse_module_gpgga()
 void NMEA_0183_sensor::Impl::parse_module_gprmc()
 {
 	gprmc_ = (nmea_parser_module_t*)malloc(sizeof( nmea_parser_module_t));
-	ASSERT_FALSE( NULL == gprmc_);
+	assert( NULL != gprmc_);
 	gprmc_->allocate_data = &allocate_data_GPRMC;
 	gprmc_->set_default = &set_default_GPRMC;
 	gprmc_->free_data = &free_data_GPRMC;
@@ -74,9 +87,31 @@ void NMEA_0183_sensor::Impl::parse_module_gprmc()
 	gprmc_->parser.type = NMEA_GPRMC;
 }
 
-NMEA_0183_sensor::NMEA_0183_sensor() : pImpl(std::make_unique<Impl>())
+void NMEA_0183_sensor::Impl::initSerialPort()
+{
+	static constexpr auto const portName{"/dev/pts/21"};
+	static constexpr auto const portSpeed{115200};
+
+	try{
+		if(serialPort_ == nullptr){
+			serialPort_ = make_unique<serial::CallbackAsyncSerial>(portName, portSpeed);		
+		}
+	} catch(...) {
+		throw std::runtime_error("Serial port problem. Simulation? Then $socat -d -d PTY PTY & in NMEA_0183_sensor");
+	}
+
+
+}
+
+void NMEA_0183_sensor::Impl::setSerialPortCallback(function<void (const char*, size_t)> const& fp){
+	assert(serialPort_ != nullptr);
+	serialPort_->setCallback(fp);
+}
+
+NMEA_0183_sensor::NMEA_0183_sensor() : pImpl(make_unique<Impl>())
 {
 	pImpl->parse_modules();
+	pImpl->initSerialPort();
 }
 
 NMEA_0183_sensor::~NMEA_0183_sensor()
@@ -84,8 +119,7 @@ NMEA_0183_sensor::~NMEA_0183_sensor()
 	pImpl->free_parsed_modules();
 }
 
-std::vector<std::string> NMEA_0183_sensor::get_data()
-{
-	return std::vector<std::string>();
+void NMEA_0183_sensor::get_data_async( function<void(const char*, size_t)> const& fp){
+	pImpl->setSerialPortCallback(fp);
 }
 

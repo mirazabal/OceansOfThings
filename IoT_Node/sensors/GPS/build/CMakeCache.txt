@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+BOOST_SYSTEM_LIBRARY:FILEPATH=/home/mikel/boost_1_63_0/stage/lib/libboost_system.so
+
+//Path to a library.
+BOOST_THREAD_LIBRARY:FILEPATH=/home/mikel/boost_1_63_0/stage/lib/libboost_thread.so
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 

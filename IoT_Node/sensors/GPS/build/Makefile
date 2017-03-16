@@ -123,6 +123,168 @@ NMEA_0183_sensor/fast:
 	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/build
 .PHONY : NMEA_0183_sensor/fast
 
+NMEA_0183/gpgga/gpgga.o: NMEA_0183/gpgga/gpgga.c.o
+
+.PHONY : NMEA_0183/gpgga/gpgga.o
+
+# target to build an object file
+NMEA_0183/gpgga/gpgga.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgga/gpgga.c.o
+.PHONY : NMEA_0183/gpgga/gpgga.c.o
+
+NMEA_0183/gpgga/gpgga.i: NMEA_0183/gpgga/gpgga.c.i
+
+.PHONY : NMEA_0183/gpgga/gpgga.i
+
+# target to preprocess a source file
+NMEA_0183/gpgga/gpgga.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgga/gpgga.c.i
+.PHONY : NMEA_0183/gpgga/gpgga.c.i
+
+NMEA_0183/gpgga/gpgga.s: NMEA_0183/gpgga/gpgga.c.s
+
+.PHONY : NMEA_0183/gpgga/gpgga.s
+
+# target to generate assembly for a file
+NMEA_0183/gpgga/gpgga.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgga/gpgga.c.s
+.PHONY : NMEA_0183/gpgga/gpgga.c.s
+
+NMEA_0183/gpgll/gpgll.o: NMEA_0183/gpgll/gpgll.c.o
+
+.PHONY : NMEA_0183/gpgll/gpgll.o
+
+# target to build an object file
+NMEA_0183/gpgll/gpgll.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgll/gpgll.c.o
+.PHONY : NMEA_0183/gpgll/gpgll.c.o
+
+NMEA_0183/gpgll/gpgll.i: NMEA_0183/gpgll/gpgll.c.i
+
+.PHONY : NMEA_0183/gpgll/gpgll.i
+
+# target to preprocess a source file
+NMEA_0183/gpgll/gpgll.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgll/gpgll.c.i
+.PHONY : NMEA_0183/gpgll/gpgll.c.i
+
+NMEA_0183/gpgll/gpgll.s: NMEA_0183/gpgll/gpgll.c.s
+
+.PHONY : NMEA_0183/gpgll/gpgll.s
+
+# target to generate assembly for a file
+NMEA_0183/gpgll/gpgll.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gpgll/gpgll.c.s
+.PHONY : NMEA_0183/gpgll/gpgll.c.s
+
+NMEA_0183/gprmc/gprmc.o: NMEA_0183/gprmc/gprmc.c.o
+
+.PHONY : NMEA_0183/gprmc/gprmc.o
+
+# target to build an object file
+NMEA_0183/gprmc/gprmc.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gprmc/gprmc.c.o
+.PHONY : NMEA_0183/gprmc/gprmc.c.o
+
+NMEA_0183/gprmc/gprmc.i: NMEA_0183/gprmc/gprmc.c.i
+
+.PHONY : NMEA_0183/gprmc/gprmc.i
+
+# target to preprocess a source file
+NMEA_0183/gprmc/gprmc.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gprmc/gprmc.c.i
+.PHONY : NMEA_0183/gprmc/gprmc.c.i
+
+NMEA_0183/gprmc/gprmc.s: NMEA_0183/gprmc/gprmc.c.s
+
+.PHONY : NMEA_0183/gprmc/gprmc.s
+
+# target to generate assembly for a file
+NMEA_0183/gprmc/gprmc.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/gprmc/gprmc.c.s
+.PHONY : NMEA_0183/gprmc/gprmc.c.s
+
+NMEA_0183/src/hash.o: NMEA_0183/src/hash.c.o
+
+.PHONY : NMEA_0183/src/hash.o
+
+# target to build an object file
+NMEA_0183/src/hash.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/hash.c.o
+.PHONY : NMEA_0183/src/hash.c.o
+
+NMEA_0183/src/hash.i: NMEA_0183/src/hash.c.i
+
+.PHONY : NMEA_0183/src/hash.i
+
+# target to preprocess a source file
+NMEA_0183/src/hash.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/hash.c.i
+.PHONY : NMEA_0183/src/hash.c.i
+
+NMEA_0183/src/hash.s: NMEA_0183/src/hash.c.s
+
+.PHONY : NMEA_0183/src/hash.s
+
+# target to generate assembly for a file
+NMEA_0183/src/hash.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/hash.c.s
+.PHONY : NMEA_0183/src/hash.c.s
+
+NMEA_0183/src/nmea.o: NMEA_0183/src/nmea.c.o
+
+.PHONY : NMEA_0183/src/nmea.o
+
+# target to build an object file
+NMEA_0183/src/nmea.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/nmea.c.o
+.PHONY : NMEA_0183/src/nmea.c.o
+
+NMEA_0183/src/nmea.i: NMEA_0183/src/nmea.c.i
+
+.PHONY : NMEA_0183/src/nmea.i
+
+# target to preprocess a source file
+NMEA_0183/src/nmea.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/nmea.c.i
+.PHONY : NMEA_0183/src/nmea.c.i
+
+NMEA_0183/src/nmea.s: NMEA_0183/src/nmea.c.s
+
+.PHONY : NMEA_0183/src/nmea.s
+
+# target to generate assembly for a file
+NMEA_0183/src/nmea.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/nmea.c.s
+.PHONY : NMEA_0183/src/nmea.c.s
+
+NMEA_0183/src/parse.o: NMEA_0183/src/parse.c.o
+
+.PHONY : NMEA_0183/src/parse.o
+
+# target to build an object file
+NMEA_0183/src/parse.c.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/parse.c.o
+.PHONY : NMEA_0183/src/parse.c.o
+
+NMEA_0183/src/parse.i: NMEA_0183/src/parse.c.i
+
+.PHONY : NMEA_0183/src/parse.i
+
+# target to preprocess a source file
+NMEA_0183/src/parse.c.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/parse.c.i
+.PHONY : NMEA_0183/src/parse.c.i
+
+NMEA_0183/src/parse.s: NMEA_0183/src/parse.c.s
+
+.PHONY : NMEA_0183/src/parse.s
+
+# target to generate assembly for a file
+NMEA_0183/src/parse.c.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183/src/parse.c.s
+.PHONY : NMEA_0183/src/parse.c.s
+
 NMEA_0183_sensor.o: NMEA_0183_sensor.cpp.o
 
 .PHONY : NMEA_0183_sensor.o
@@ -149,6 +311,87 @@ NMEA_0183_sensor.s: NMEA_0183_sensor.cpp.s
 NMEA_0183_sensor.cpp.s:
 	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.s
 .PHONY : NMEA_0183_sensor.cpp.s
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.o: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.o
+
+# target to build an object file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.i: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.i
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.i
+
+# target to preprocess a source file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.i
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.i
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.s: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.s
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.s
+
+# target to generate assembly for a file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.s
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.s
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.o: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.o
+
+# target to build an object file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.i: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.i
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.i
+
+# target to preprocess a source file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.i
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.i
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.s: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.s
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.s
+
+# target to generate assembly for a file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.s
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.s
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.o: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.o
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.o
+
+# target to build an object file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.o:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.o
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.o
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.i: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.i
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.i
+
+# target to preprocess a source file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.i:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.i
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.i
+
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.s: home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.s
+
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.s
+
+# target to generate assembly for a file
+home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.s:
+	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.s
+.PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp.s
 
 home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.o: home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o
 
@@ -267,9 +510,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NMEA_0183_sensor"
+	@echo "... NMEA_0183/gpgga/gpgga.o"
+	@echo "... NMEA_0183/gpgga/gpgga.i"
+	@echo "... NMEA_0183/gpgga/gpgga.s"
+	@echo "... NMEA_0183/gpgll/gpgll.o"
+	@echo "... NMEA_0183/gpgll/gpgll.i"
+	@echo "... NMEA_0183/gpgll/gpgll.s"
+	@echo "... NMEA_0183/gprmc/gprmc.o"
+	@echo "... NMEA_0183/gprmc/gprmc.i"
+	@echo "... NMEA_0183/gprmc/gprmc.s"
+	@echo "... NMEA_0183/src/hash.o"
+	@echo "... NMEA_0183/src/hash.i"
+	@echo "... NMEA_0183/src/hash.s"
+	@echo "... NMEA_0183/src/nmea.o"
+	@echo "... NMEA_0183/src/nmea.i"
+	@echo "... NMEA_0183/src/nmea.s"
+	@echo "... NMEA_0183/src/parse.o"
+	@echo "... NMEA_0183/src/parse.i"
+	@echo "... NMEA_0183/src/parse.s"
 	@echo "... NMEA_0183_sensor.o"
 	@echo "... NMEA_0183_sensor.i"
 	@echo "... NMEA_0183_sensor.s"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.o"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.i"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.s"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.o"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.i"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.s"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.o"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.i"
+	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.s"
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.o"
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.i"
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.s"

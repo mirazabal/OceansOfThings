@@ -28,7 +28,7 @@ server.on('clientConnected', function(client) {
 });
  
 server.on('published', function(packet, client) {
-  console.log('Published', packet.payload.toString('utf-8') );
+  console.log('Published ', packet.topic, packet.payload.toString('utf-8') );
   
 });
  

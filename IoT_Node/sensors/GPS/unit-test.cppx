@@ -1,6 +1,10 @@
 
 #include "include/gtest/gtest.h"
+
 #include "NMEA_0183_sensor.h"
+#include <chrono>
+#include <iostream>
+#include <thread>
 
 
 namespace
@@ -12,7 +16,12 @@ namespace
 	
 
 		virtual void SetUp(){
-			auto a = sens.get_data();	
+			std::function< void ( const char* data, size_t size) > fp = [](const char* d, size_t t){
+				std::string str(d,t);
+				std::cout << str << std::endl;
+			};
+
+			sens.get_data_async(fp);
 		}	
 		
 		virtual void TearDown(){
@@ -20,9 +29,11 @@ namespace
 
 		NMEA_0183_sensor sens;
 	};
-	TEST_F(NMEA_0183_sensor_TEST, parse_simple_sentence_GPRMC)
-	{
 
+	TEST_F(NMEA_0183_sensor_TEST, print_NMEA_Data)
+	{
+		system("./portSimulator/portSimulator.sh");
+		std::this_thread::sleep_for(std::chrono::seconds(30) );
 	}
 
 }// end of namespace

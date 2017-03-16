@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async
+CMAKE_SOURCE_DIR = /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build
+CMAKE_BINARY_DIR = /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Paho_MQTT.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Paho_MQTT.dir/flags.make
 
 CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o: CMakeFiles/Paho_MQTT.dir/flags.make
 CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o: ../delivery_action_listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp
 
 CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp > CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp > CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.i
 
 CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp -o CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp -o CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.s
 
 CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Paho_MQTT.dir/delivery_action_listener.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o: CMakeFiles/Paho_MQTT.dir/flags.make
 CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o: ../action_listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/action_listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp
 
 CMakeFiles/Paho_MQTT.dir/action_listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paho_MQTT.dir/action_listener.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/action_listener.cpp > CMakeFiles/Paho_MQTT.dir/action_listener.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp > CMakeFiles/Paho_MQTT.dir/action_listener.cpp.i
 
 CMakeFiles/Paho_MQTT.dir/action_listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paho_MQTT.dir/action_listener.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/action_listener.cpp -o CMakeFiles/Paho_MQTT.dir/action_listener.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp -o CMakeFiles/Paho_MQTT.dir/action_listener.cpp.s
 
 CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o.provides.build: CMakeFiles/Paho_M
 
 CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o: CMakeFiles/Paho_MQTT.dir/flags.make
 CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o: ../unit-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/unit-test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/unit-test.cpp
 
 CMakeFiles/Paho_MQTT.dir/unit-test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paho_MQTT.dir/unit-test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/unit-test.cpp > CMakeFiles/Paho_MQTT.dir/unit-test.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/unit-test.cpp > CMakeFiles/Paho_MQTT.dir/unit-test.cpp.i
 
 CMakeFiles/Paho_MQTT.dir/unit-test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paho_MQTT.dir/unit-test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/unit-test.cpp -o CMakeFiles/Paho_MQTT.dir/unit-test.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/unit-test.cpp -o CMakeFiles/Paho_MQTT.dir/unit-test.cpp.s
 
 CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o.provides.build: CMakeFiles/Paho_MQTT.di
 
 CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o: CMakeFiles/Paho_MQTT.dir/flags.make
 CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o: ../callbackAsyncPublish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp
 
 CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp > CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp > CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.i
 
 CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp -o CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp -o CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.s
 
 CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o.requires:
 
@@ -168,11 +168,11 @@ Paho_MQTT: CMakeFiles/Paho_MQTT.dir/action_listener.cpp.o
 Paho_MQTT: CMakeFiles/Paho_MQTT.dir/unit-test.cpp.o
 Paho_MQTT: CMakeFiles/Paho_MQTT.dir/callbackAsyncPublish.cpp.o
 Paho_MQTT: CMakeFiles/Paho_MQTT.dir/build.make
-Paho_MQTT: /home/mikel/workspace/OceansOfThings/NMEA_0183/lib_x64/googlemock/gtest/libgtest.a
-Paho_MQTT: /home/mikel/workspace/OceansOfThings/IoT_MQTT/lib_x64/MQTT/Paho_c/libpaho-mqtt3a.so
-Paho_MQTT: /home/mikel/workspace/OceansOfThings/IoT_MQTT/lib_x64/MQTT/Paho_cpp/libmqttpp.so
+Paho_MQTT: /home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/googlemock/gtest/libgtest.a
+Paho_MQTT: /usr/local/lib/libpaho-mqtt3a.so
+Paho_MQTT: /home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/mqtt/libmqttpp.so
 Paho_MQTT: CMakeFiles/Paho_MQTT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Paho_MQTT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Paho_MQTT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Paho_MQTT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/Paho_MQTT.dir/clean:
 .PHONY : CMakeFiles/Paho_MQTT.dir/clean
 
 CMakeFiles/Paho_MQTT.dir/depend:
-	cd /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build /home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/build/CMakeFiles/Paho_MQTT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/build/CMakeFiles/Paho_MQTT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Paho_MQTT.dir/depend
 

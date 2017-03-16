@@ -10,9 +10,7 @@ class NMEA_0183_sensor : public sensor
 		NMEA_0183_sensor();
 		virtual ~NMEA_0183_sensor();
 
-
-		std::vector<std::string> get_data() override final;
-
+		void get_data_async(std::function<void ( const char *, size_t)> const& ) override;
 	private:
 		struct Impl;
 		std::unique_ptr<Impl> pImpl;

@@ -1,20 +1,21 @@
 #ifndef iot_node_h
 #define iot_node_h
 
+#include "../IoT_Node/sensors/iot_sensor_factory.h" 
+#include "../IoT_Node/connectivity/mqtt/mqtt_endpoint.h"
 
 #include "sensor.h"
-#include "iot_sensor_factory.h" 
 
-#include "mqtt_endpoint.h"
-
-
-#include <string>
 #include <memory>
+#include <string>
+
+using namespace mirazabal;
+
 
 class iot_node{
 
 	public:
-		iot_node(std::string const& name);
+	 	explicit iot_node(std::string const& name);
 		~iot_node(); 	
 
 		std::string get_name();

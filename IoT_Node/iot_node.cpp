@@ -1,8 +1,9 @@
 
 #include "iot_node.h"
+#include <iostream>
 
-iot_node::iot_node(std::string const& name){
-	name_ = name;
+
+iot_node::iot_node(std::string const& name) : name_{name} {
 }
 
 iot_node::~iot_node(){
@@ -21,8 +22,9 @@ std::shared_ptr<sensor> iot_node::get_sensor(std::string const& sensorName){
 	return factory_.get_sensor(sensorName);
 }
 
-bool iot_node::add_sensor( std::string const& name, std::shared_ptr<sensor> sP){
-	return 	factory_.register_sensor(name, sP);	
+bool iot_node::add_sensor( std::string const& name, std::shared_ptr<sensor> sP){	
+	std::cout << "name = " << name << " "<< std::endl;
+	return factory_.register_sensor(name, sP);	
 }
 
 void iot_node::try_connect(std::string const& uri){

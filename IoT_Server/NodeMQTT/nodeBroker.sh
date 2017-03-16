@@ -10,6 +10,6 @@ else
 			redis-server &
 	fi
 
-	node ~/workspace/OceansOfThings/IoT_MQTT/NodeMQTT/mosca-app.js &
+	node ~/workspace/OceansOfThings/IoT_Server/NodeMQTT/mosca-app.js &
 	sleep 7     
 fi

@@ -14,7 +14,7 @@
 
 constexpr auto ADDRESS {"tcp://localhost:1883"};
 constexpr auto CLIENTID{"AsyncPublisher"};
-constexpr auto TOPIC{"presence"};
+constexpr auto TOPIC{"new message"};
 
 
 const int  QOS = 1;

@@ -13,10 +13,7 @@ sensor::~sensor(){
 
 }
 
-std::vector<std::string> sensor::get_data(){
-//	static_assert(false, "abstract_sensor  get_data called" );
-	throw std::runtime_error( " get_gata from sensor called" );
-	return std::vector<std::string>();
+void sensor::get_data_async(std::function<void (const char*, size_t)> const & fp){
+	std::runtime_error("Error in inheritance???");
 }
-
 

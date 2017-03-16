@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-//#include "../src/parser_types.h"
 #include "../src/parse.h"
 
 /* Value indexes */
@@ -13,6 +12,8 @@
 #define NMEA_GPGLL_LONGITUDE		2
 #define NMEA_GPGLL_LONGITUDE_CARDINAL	3
 #define NMEA_GPGLL_TIME			4
+
+
 
 
 struct nmea_gpgll_s {

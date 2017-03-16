@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -ldl -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/../include/gtest -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/../include -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/../src/paho.mqtt.c/src -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/../src/paho.mqtt.cpp/src -I/home/mikel/workspace/OceansOfThings/IoT_MQTT/Paho_MQTT_Unit_Test_Async/../src/Paho_MQTT_cpp/src/mqtt 
+CXX_INCLUDES = -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/../include/gtest -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/../include -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/../src/paho.mqtt.c/src -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/../src/paho.mqtt.cpp/src -I/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/../src/Paho_MQTT_cpp/src/mqtt 
 

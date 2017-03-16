@@ -1,8 +1,7 @@
 #ifndef sensor_h
 #define sensor_h
 
-#include <vector>
-#include <string>
+#include <functional>
 
 class sensor{
 
@@ -10,11 +9,9 @@ public:
 	sensor();
 	virtual ~sensor();
 
-	virtual std::vector<std::string> get_data() = 0;
-
+	virtual void get_data_async(std::function<void ( const char *, size_t)> const& ) = 0;
 
 private:
-
 
 };
 

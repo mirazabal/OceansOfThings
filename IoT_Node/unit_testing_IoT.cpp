@@ -1,7 +1,6 @@
 #include "include/gtest/gtest.h"
-#include "camera_NoIr_V2.h"
-#include "fake_camera.h"
-#include "rpi_node.h"
+#include "iot_node.h"
+#include "sensors/GPS/NMEA_0183_sensor.h"
 
 #include <memory>
 #include <string>
@@ -16,56 +15,63 @@ namespace {
 
  class IoT_Test : public ::testing::Test {
 protected:
-	IoT_Test():r("Node")  {
-	              }
-	virtual ~IoT_Test() {
-	                      }
+	IoT_Test(): node {"Node"}
+   	{
+    }
+
+	virtual ~IoT_Test()
+   	{
+	}
+
 	virtual void SetUp() {
-	#ifndef FAKE_CAMERA
-		r.add_sensor("NoIR", std::make_shared<camera_NoIR_V2>());
-	#else
-		r.add_sensor("NoIR", std::make_shared<fake_camera>());
-	#endif	
-		r.try_connect("tcp://5.10.201.121:1883");
+
+		constexpr auto uri {"tcp://localhost:1883"};
+		std::shared_ptr<NMEA_0183_sensor> sens;
+		ASSERT_NO_THROW( sens = std::make_shared<NMEA_0183_sensor>()  );
+		node.add_sensor("GPS", sens);
+		std::cout << "After GPS add sensor" << std::endl;
+//		node.try_connect("tcp://5.10.201.121:1883");
+
+		node.try_connect(uri);
 
 	}
-	//
+
 	virtual void TearDown() {
 	 }
-	rpi_node r;
+
+	iot_node node;
 };
 
-TEST_F(IoT_Test, SendImage) {
+TEST_F(IoT_Test, SendDataGPS) {
 
-	for(int i = 0; i < 1000; i++){
+		std::shared_ptr<sensor> GPS_sensor = node.get_sensor("GPS");
 
-	std::shared_ptr<sensor> camSen = r.get_sensor("NoIR");
-	std::vector<std::string> data = camSen->get_data();
+		std::function< void ( const char* data, size_t size) > fp = [&](const char* d, size_t t){
+				std::string str(d,t);
+				node.send_data("new message", str );
+				std::cout << str << std::endl;
+			};
 
-//	ASSERT_GT(0, data.size() );
-	r.send_data("image",data.at(0));
-
-	std::this_thread::sleep_for(std::chrono::milliseconds(500));
-	}
-	
-}	//
-
-
-TEST_F(IoT_Test, SendMessage) {
-
-	for(int i = 0; i < 1000; i++){
-	r.send_data("new message","Different Messages "+ std::to_string(i) );
-
-	std::this_thread::sleep_for(std::chrono::milliseconds(500));
-	}
-	
-}	//
+		GPS_sensor->get_data_async(fp);
+		std::this_thread::sleep_for(std::chrono::milliseconds(30000));
+}
 
 }  // namespace
 
 
 int main(int argc, char **argv) {
+	
+	system("./../IoT_Server/NodeMQTT/nodeBroker.sh");
+
+	std::thread t( [&](){system("./sensors/GPS/portSimulator/portSimulator.sh");} ) ;
+	
 	::testing::InitGoogleTest(&argc, argv);
-	return RUN_ALL_TESTS();
+	
+	auto retVal = RUN_ALL_TESTS();
+
+	t.join();
+
+	return retVal;
+
 }
 

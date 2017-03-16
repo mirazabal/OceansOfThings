@@ -10,7 +10,7 @@
 class sensor_factory{
 public:
 	sensor_factory();
-	~sensor_factory();
+ 	virtual ~sensor_factory();
 
 	bool register_sensor(std::string const& name, std::shared_ptr<sensor > sP );
 	bool unregister_sensor(std::string const& name);
