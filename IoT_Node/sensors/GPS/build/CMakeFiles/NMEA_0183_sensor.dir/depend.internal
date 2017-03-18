@@ -4442,29 +4442,3 @@ CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sen
  /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.h
  /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
  /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o
- ../NMEA_0183/include/gtest/gtest.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-death-test.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-message.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-param-test.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-printers.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-test-part.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-typed-test.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest_pred_impl.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest_prod.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/custom/gtest-port.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/custom/gtest-printers.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-death-test-internal.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-filepath.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-internal.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-linked_ptr.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-param-util-generated.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-param-util.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-port-arch.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-port.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-string.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-tuple.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-type-util.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.h
- /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/unit-test.cpp
- /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.h

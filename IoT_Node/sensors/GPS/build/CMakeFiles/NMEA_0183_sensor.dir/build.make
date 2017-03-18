@@ -297,33 +297,9 @@ CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o.provides: CMakeFiles/NMEA
 CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o.provides.build: CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o
 
 
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: CMakeFiles/NMEA_0183_sensor.dir/flags.make
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: ../unit-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/unit-test.cpp
-
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/unit-test.cpp > CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.i
-
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/unit-test.cpp -o CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.s
-
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.requires:
-
-.PHONY : CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.requires
-
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.provides: CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.provides.build
-.PHONY : CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.provides
-
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.provides.build: CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o
-
-
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o: CMakeFiles/NMEA_0183_sensor.dir/flags.make
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp
 
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.i: cmake_force
@@ -347,7 +323,7 @@ CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sen
 
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o: CMakeFiles/NMEA_0183_sensor.dir/flags.make
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp
 
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.i: cmake_force
@@ -371,7 +347,7 @@ CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sen
 
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o: CMakeFiles/NMEA_0183_sensor.dir/flags.make
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
 
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.i: cmake_force
@@ -405,7 +381,6 @@ NMEA_0183_sensor_OBJECTS = \
 "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o" \
 "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o" \
 "CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o" \
-"CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o" \
 "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o" \
 "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o" \
 "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o"
@@ -423,7 +398,6 @@ NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfT
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o
-NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o
@@ -432,7 +406,7 @@ NMEA_0183_sensor: /home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/googlemo
 NMEA_0183_sensor: /home/mikel/boost_1_63_0/stage/lib/libboost_system.so
 NMEA_0183_sensor: /home/mikel/boost_1_63_0/stage/lib/libboost_thread.so
 NMEA_0183_sensor: CMakeFiles/NMEA_0183_sensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable NMEA_0183_sensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable NMEA_0183_sensor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NMEA_0183_sensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -450,7 +424,6 @@ CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/m
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o.requires
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o.requires
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o.requires
-CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o.requires
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o.requires
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o.requires
 CMakeFiles/NMEA_0183_sensor.dir/requires: CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o.requires

@@ -474,33 +474,6 @@ home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.s:
 	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.s
 .PHONY : home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.s
 
-unit-test.o: unit-test.cpp.o
-
-.PHONY : unit-test.o
-
-# target to build an object file
-unit-test.cpp.o:
-	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o
-.PHONY : unit-test.cpp.o
-
-unit-test.i: unit-test.cpp.i
-
-.PHONY : unit-test.i
-
-# target to preprocess a source file
-unit-test.cpp.i:
-	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.i
-.PHONY : unit-test.cpp.i
-
-unit-test.s: unit-test.cpp.s
-
-.PHONY : unit-test.s
-
-# target to generate assembly for a file
-unit-test.cpp.s:
-	$(MAKE) -f CMakeFiles/NMEA_0183_sensor.dir/build.make CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.s
-.PHONY : unit-test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -549,9 +522,6 @@ help:
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.o"
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.i"
 	@echo "... home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.s"
-	@echo "... unit-test.o"
-	@echo "... unit-test.i"
-	@echo "... unit-test.s"
 .PHONY : help
 
 

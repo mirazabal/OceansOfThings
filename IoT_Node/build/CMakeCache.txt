@@ -15,10 +15,7 @@
 ########################
 
 //Path to a library.
-BOOST_SYSTEM_LIBRARY:FILEPATH=/home/mikel/boost_1_63_0/stage/lib/libboost_system.so
-
-//Path to a library.
-BOOST_THREAD_LIBRARY:FILEPATH=/home/mikel/boost_1_63_0/stage/lib/libboost_thread.so
+BOOST_SYSTEM_LIBRARY:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_ARM32/Boost_ARM_lib/libboost_system.a
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -172,13 +169,16 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a library.
-GTEST_LIBRARY:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/googlemock/gtest/libgtest.a
+GTEST_LIBRARY:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_ARM32/googlemock/gtest/libgtest.a
 
 //Path to a library.
-MQTT_LIBRARY_C:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/mqtt/libpaho-mqtt3a.so
+MQTT_LIBRARY_C:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_ARM32/mqtt/libpaho-mqtt3a.so
 
 //Path to a library.
-MQTT_LIBRARY_CPP:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/mqtt/libmqttpp.so
+MQTT_LIBRARY_CPP:FILEPATH=/home/mikel/workspace/OceansOfThings/IoT_Node/lib_ARM32/mqtt/libmqttpp.so
+
+//build application with ARM
+USE_ARM:BOOL=ON
 
 //Value Computed by CMake
 iot_node_BINARY_DIR:STATIC=/home/mikel/workspace/OceansOfThings/IoT_Node/build

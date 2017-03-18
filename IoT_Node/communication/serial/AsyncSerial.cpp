@@ -45,7 +45,7 @@ public:
 }
 
 
-AsyncSerial::AsyncSerial(): pimpl(std::make_unique<AsyncSerialImpl>())
+AsyncSerial::AsyncSerial(): pimpl(new AsyncSerialImpl()) // (std::make_unique<AsyncSerialImpl>())
 {
 
 }
@@ -55,7 +55,7 @@ AsyncSerial::AsyncSerial(const std::string& devname, unsigned int baud_rate,
         serial_port_base::character_size opt_csize,
         serial_port_base::flow_control opt_flow,
         serial_port_base::stop_bits opt_stop)
-        : pimpl(std::make_unique<AsyncSerialImpl>())
+        : pimpl( new AsyncSerialImpl()/* std::make_unique<AsyncSerialImpl>()*/)
 {
     open(devname,baud_rate,opt_parity,opt_csize,opt_flow,opt_stop);
 }
@@ -79,8 +79,10 @@ void AsyncSerial::open(const std::string& devname, unsigned int baud_rate,
     //This gives some work to the io_service before it is started
     pimpl->io.post(boost::bind(&AsyncSerial::doRead, this));
 	
+   std::unique_ptr<std::thread> uP(new std::thread([&](){pimpl->io.run(); } ) );
 
-   pimpl->backgroundThread = std::make_unique<std::thread>( [&](){ pimpl->io.run(); });	
+   pimpl->backgroundThread = std::move(uP);
+//   pimpl->backgroundThread = std::make_unique<std::thread>( [&](){ pimpl->io.run(); });	
 
 	setErrorStatus(false);//If we get here, no error
     pimpl->open=true; //Port is now open

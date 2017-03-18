@@ -89,12 +89,13 @@ void NMEA_0183_sensor::Impl::parse_module_gprmc()
 
 void NMEA_0183_sensor::Impl::initSerialPort()
 {
-	static constexpr auto const portName{"/dev/pts/21"};
-	static constexpr auto const portSpeed{115200};
+	static std::string const portName{"/dev/pts/19"};
+	static constexpr size_t const portSpeed{115200};
 
 	try{
 		if(serialPort_ == nullptr){
-			serialPort_ = make_unique<serial::CallbackAsyncSerial>(portName, portSpeed);		
+			std::unique_ptr<serial::CallbackAsyncSerial> uP( new serial::CallbackAsyncSerial(portName, portSpeed) );
+			serialPort_ = std::move(uP); //make_unique<serial::CallbackAsyncSerial>(portName, portSpeed);	just c++11 :-(	
 		}
 	} catch(...) {
 		throw std::runtime_error("Serial port problem. Simulation? Then $socat -d -d PTY PTY & in NMEA_0183_sensor");
@@ -108,7 +109,7 @@ void NMEA_0183_sensor::Impl::setSerialPortCallback(function<void (const char*, s
 	serialPort_->setCallback(fp);
 }
 
-NMEA_0183_sensor::NMEA_0183_sensor() : pImpl(make_unique<Impl>())
+NMEA_0183_sensor::NMEA_0183_sensor() : pImpl(new Impl()) //(make_unique<Impl>())
 {
 	pImpl->parse_modules();
 	pImpl->initSerialPort();

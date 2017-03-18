@@ -25,7 +25,7 @@ protected:
 
 	virtual void SetUp() {
 
-		constexpr auto uri {"tcp://localhost:1883"};
+		std::string uri{"tcp://localhost:1883"};
 		std::shared_ptr<NMEA_0183_sensor> sens;
 		ASSERT_NO_THROW( sens = std::make_shared<NMEA_0183_sensor>()  );
 		node.add_sensor("GPS", sens);

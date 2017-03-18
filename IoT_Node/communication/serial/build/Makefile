@@ -215,33 +215,6 @@ CallbackAsyncSerial.cpp.s:
 	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.s
 .PHONY : CallbackAsyncSerial.cpp.s
 
-unit-test.o: unit-test.cpp.o
-
-.PHONY : unit-test.o
-
-# target to build an object file
-unit-test.cpp.o:
-	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/unit-test.cpp.o
-.PHONY : unit-test.cpp.o
-
-unit-test.i: unit-test.cpp.i
-
-.PHONY : unit-test.i
-
-# target to preprocess a source file
-unit-test.cpp.i:
-	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/unit-test.cpp.i
-.PHONY : unit-test.cpp.i
-
-unit-test.s: unit-test.cpp.s
-
-.PHONY : unit-test.s
-
-# target to generate assembly for a file
-unit-test.cpp.s:
-	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/unit-test.cpp.s
-.PHONY : unit-test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,9 +234,6 @@ help:
 	@echo "... CallbackAsyncSerial.o"
 	@echo "... CallbackAsyncSerial.i"
 	@echo "... CallbackAsyncSerial.s"
-	@echo "... unit-test.o"
-	@echo "... unit-test.i"
-	@echo "... unit-test.s"
 .PHONY : help
 
 

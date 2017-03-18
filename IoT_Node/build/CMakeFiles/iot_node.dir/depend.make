@@ -3447,6 +3447,8 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../include/mqtt/iclient_persistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../include/mqtt/ipersistable.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../include/mqtt/topic.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/message.h
@@ -3462,14 +3464,20 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ..
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../include/mqtt/message.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../include/mqtt/token.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../include/mqtt/topic.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/client.h
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../include/mqtt/ipersistable.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/iclient_persistence.h
 
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/message.h
 
@@ -3482,6 +3490,8 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../include/mqtt/ipersistable.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../include/mqtt/message.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../include/mqtt/topic.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/token.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp
@@ -3495,6 +3505,8 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../include/mqtt/ipersistable.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../include/mqtt/message.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../include/mqtt/token.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/topic.h
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp

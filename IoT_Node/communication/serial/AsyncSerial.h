@@ -96,7 +96,7 @@ public:
     /**
      * Read buffer maximum size
      */
-    static constexpr auto readBufferSize{512};
+    static constexpr size_t readBufferSize{512};
 private:
 
     /**

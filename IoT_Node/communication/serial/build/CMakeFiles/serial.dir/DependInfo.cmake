@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/serial.dir/AsyncSerial.cpp.o"
   "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o"
   "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o"
-  "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/unit-test.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles/serial.dir/unit-test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

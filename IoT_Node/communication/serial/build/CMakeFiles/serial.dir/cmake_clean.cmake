@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o"
-  "CMakeFiles/serial.dir/unit-test.cpp.o"
   "CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o"
   "CMakeFiles/serial.dir/AsyncSerial.cpp.o"
   "serial.pdb"

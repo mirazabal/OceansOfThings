@@ -22,7 +22,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../sensors"
   "../sensors/GPS"
   "../sensors/GPS/NMEA_0183"
-  "../sensors/connectivity/mqtt/src"
+  "../sensors/connectivity/mqtt/src/paho.mqtt.c/src"
   "../sensors/connectivity/mqtt/Paho_MQTT_Unit_Test_Async"
   "/home/mikel/boost_1_63_0/boost"
   )
@@ -57,7 +57,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../sensors"
   "../sensors/GPS"
   "../sensors/GPS/NMEA_0183"
-  "../sensors/connectivity/mqtt/src"
+  "../sensors/connectivity/mqtt/src/paho.mqtt.c/src"
   "../sensors/connectivity/mqtt/Paho_MQTT_Unit_Test_Async"
   "/home/mikel/boost_1_63_0/boost"
   )

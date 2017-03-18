@@ -29,7 +29,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o"
   "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o"
   "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o"
-  "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/unit-test.cpp" "/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/build/CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -81,33 +81,9 @@ CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o.provides: CMakeFiles/serial.dir/
 CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o.provides.build: CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o
 
 
-CMakeFiles/serial.dir/unit-test.cpp.o: CMakeFiles/serial.dir/flags.make
-CMakeFiles/serial.dir/unit-test.cpp.o: ../unit-test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial.dir/unit-test.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/unit-test.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/unit-test.cpp
-
-CMakeFiles/serial.dir/unit-test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/unit-test.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/unit-test.cpp > CMakeFiles/serial.dir/unit-test.cpp.i
-
-CMakeFiles/serial.dir/unit-test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/unit-test.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/unit-test.cpp -o CMakeFiles/serial.dir/unit-test.cpp.s
-
-CMakeFiles/serial.dir/unit-test.cpp.o.requires:
-
-.PHONY : CMakeFiles/serial.dir/unit-test.cpp.o.requires
-
-CMakeFiles/serial.dir/unit-test.cpp.o.provides: CMakeFiles/serial.dir/unit-test.cpp.o.requires
-	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/unit-test.cpp.o.provides.build
-.PHONY : CMakeFiles/serial.dir/unit-test.cpp.o.provides
-
-CMakeFiles/serial.dir/unit-test.cpp.o.provides.build: CMakeFiles/serial.dir/unit-test.cpp.o
-
-
 CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o: CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o: ../BufferedAsyncSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp
 
 CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o.provides.build: CMakeFiles/seria
 
 CMakeFiles/serial.dir/AsyncSerial.cpp.o: CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/AsyncSerial.cpp.o: ../AsyncSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/serial.dir/AsyncSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serial.dir/AsyncSerial.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serial.dir/AsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp
 
 CMakeFiles/serial.dir/AsyncSerial.cpp.i: cmake_force
@@ -156,7 +132,6 @@ CMakeFiles/serial.dir/AsyncSerial.cpp.o.provides.build: CMakeFiles/serial.dir/As
 # Object files for target serial
 serial_OBJECTS = \
 "CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o" \
-"CMakeFiles/serial.dir/unit-test.cpp.o" \
 "CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o" \
 "CMakeFiles/serial.dir/AsyncSerial.cpp.o"
 
@@ -164,7 +139,6 @@ serial_OBJECTS = \
 serial_EXTERNAL_OBJECTS =
 
 serial: CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o
-serial: CMakeFiles/serial.dir/unit-test.cpp.o
 serial: CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o
 serial: CMakeFiles/serial.dir/AsyncSerial.cpp.o
 serial: CMakeFiles/serial.dir/build.make
@@ -172,7 +146,7 @@ serial: /home/mikel/workspace/OceansOfThings/IoT_Node/lib_x64/googlemock/gtest/l
 serial: /home/mikel/boost_1_63_0/stage/lib/libboost_system.so
 serial: /home/mikel/boost_1_63_0/stage/lib/libboost_thread.so
 serial: CMakeFiles/serial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable serial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,7 +155,6 @@ CMakeFiles/serial.dir/build: serial
 .PHONY : CMakeFiles/serial.dir/build
 
 CMakeFiles/serial.dir/requires: CMakeFiles/serial.dir/CallbackAsyncSerial.cpp.o.requires
-CMakeFiles/serial.dir/requires: CMakeFiles/serial.dir/unit-test.cpp.o.requires
 CMakeFiles/serial.dir/requires: CMakeFiles/serial.dir/BufferedAsyncSerial.cpp.o.requires
 CMakeFiles/serial.dir/requires: CMakeFiles/serial.dir/AsyncSerial.cpp.o.requires
 

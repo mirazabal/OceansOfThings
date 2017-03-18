@@ -60,15 +60,15 @@ include CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o: ../sensors/GPS/NMEA_0183/src/parse.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/parse.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/parse.c.o.provides.build: CMak
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o: ../sensors/GPS/NMEA_0183/src/nmea.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/nmea.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/nmea.c.o.provides.build: CMake
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o: ../sensors/GPS/NMEA_0183/src/hash.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/src/hash.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/src/hash.c.o.provides.build: CMake
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o: ../sensors/GPS/NMEA_0183/gpgga/gpgga.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgga/gpgga.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgga/gpgga.c.o.provides.build: CM
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o: ../sensors/GPS/NMEA_0183/gpgll/gpgll.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gpgll/gpgll.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gpgll/gpgll.c.o.provides.build: CM
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o: ../sensors/GPS/NMEA_0183/gprmc/gprmc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o   -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc"  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183/gprmc/gprmc.c -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183/gprmc/gprmc.c.o.provides.build: CM
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o: ../sensors/GPS/NMEA_0183_sensor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp > CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.i
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/NMEA_0183_sensor.cpp -o CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.s
 
 CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/iot_node.dir/sensors/GPS/NMEA_0183_sensor.cpp.o.provides.build: CMake
 CMakeFiles/iot_node.dir/sensors/sensor.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/sensor.cpp.o: ../sensors/sensor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/iot_node.dir/sensors/sensor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/sensor.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/sensor.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp
 
 CMakeFiles/iot_node.dir/sensors/sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/sensors/sensor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp > CMakeFiles/iot_node.dir/sensors/sensor.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp > CMakeFiles/iot_node.dir/sensors/sensor.cpp.i
 
 CMakeFiles/iot_node.dir/sensors/sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/sensors/sensor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp -o CMakeFiles/iot_node.dir/sensors/sensor.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp -o CMakeFiles/iot_node.dir/sensors/sensor.cpp.s
 
 CMakeFiles/iot_node.dir/sensors/sensor.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/iot_node.dir/sensors/sensor.cpp.o.provides.build: CMakeFiles/iot_node
 CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o: ../sensors/iot_sensor_factory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp
 
 CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp > CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp > CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.i
 
 CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp -o CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp -o CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.s
 
 CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/iot_node.dir/sensors/iot_sensor_factory.cpp.o.provides.build: CMakeFi
 CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o: ../sensors/sensor_factory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
 
 CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp > CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp > CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.i
 
 CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp -o CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp -o CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.s
 
 CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o: ../communication/serial/CallbackAsyncSerial.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp
 
 CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.i
 
 CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/CallbackAsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.s
 
 CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o.provides.
 CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o: ../communication/serial/BufferedAsyncSerial.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp
 
 CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.i
 
 CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.s
 
 CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o.provides.
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o: ../communication/serial/AsyncSerial.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp
 
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp > CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.i
 
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp -o CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.s
 
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o.requires:
 
@@ -369,42 +369,18 @@ CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o.provides: CMakeFi
 CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o.provides.build: CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o
 
 
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o: CMakeFiles/iot_node.dir/flags.make
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o: ../connectivity/mqtt/mqtt_endpoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp
-
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i
-
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s
-
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires:
-
-.PHONY : CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
-
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
-	$(MAKE) -f CMakeFiles/iot_node.dir/build.make CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides.build
-.PHONY : CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides
-
-CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides.build: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o
-
-
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o.requires:
 
@@ -419,16 +395,16 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o.pr
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o.requires:
 
@@ -443,16 +419,16 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o.requires:
 
@@ -467,16 +443,16 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o.prov
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o.requires:
 
@@ -491,16 +467,16 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o.prov
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o.requires:
 
@@ -515,16 +491,16 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o.pro
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o: ../connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o.requires:
 
@@ -537,18 +513,42 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persiste
 CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o.provides.build: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o
 
 
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o: CMakeFiles/iot_node.dir/flags.make
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o: ../connectivity/mqtt/mqtt_endpoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp
+
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.i
+
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s"
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/mqtt_endpoint.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.s
+
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires:
+
+.PHONY : CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
+
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
+	$(MAKE) -f CMakeFiles/iot_node.dir/build.make CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides.build
+.PHONY : CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides
+
+CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.provides.build: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o
+
+
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o: ../connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o.requires:
 
@@ -564,15 +564,15 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_act
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o: ../connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o.requires:
 
@@ -588,15 +588,15 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_liste
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o: ../connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp > CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.i
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp -o CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.s
 
 CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o.requires:
 
@@ -612,15 +612,15 @@ CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyn
 CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o: ../unit_testing_IoT.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp
 
 CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp > CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp > CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.i
 
 CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp -o CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/unit_testing_IoT.cpp -o CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.s
 
 CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o.requires:
 
@@ -636,15 +636,15 @@ CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o.provides.build: CMakeFiles/iot_no
 CMakeFiles/iot_node.dir/iot_node.cpp.o: CMakeFiles/iot_node.dir/flags.make
 CMakeFiles/iot_node.dir/iot_node.cpp.o: ../iot_node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/iot_node.dir/iot_node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/iot_node.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iot_node.dir/iot_node.cpp.o -c /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp
 
 CMakeFiles/iot_node.dir/iot_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iot_node.dir/iot_node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp > CMakeFiles/iot_node.dir/iot_node.cpp.i
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp > CMakeFiles/iot_node.dir/iot_node.cpp.i
 
 CMakeFiles/iot_node.dir/iot_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iot_node.dir/iot_node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp -o CMakeFiles/iot_node.dir/iot_node.cpp.s
+	"/home/mikel/RaspPI_compiler_ Boost/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikel/workspace/OceansOfThings/IoT_Node/iot_node.cpp -o CMakeFiles/iot_node.dir/iot_node.cpp.s
 
 CMakeFiles/iot_node.dir/iot_node.cpp.o.requires:
 
@@ -672,13 +672,13 @@ iot_node_OBJECTS = \
 "CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o" \
 "CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o" \
 "CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o" \
-"CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o" \
+"CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o" \
 "CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o" \
@@ -701,24 +701,23 @@ iot_node: CMakeFiles/iot_node.dir/sensors/sensor_factory.cpp.o
 iot_node: CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o
 iot_node: CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o
 iot_node: CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o
-iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o
+iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o
 iot_node: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o
 iot_node: CMakeFiles/iot_node.dir/unit_testing_IoT.cpp.o
 iot_node: CMakeFiles/iot_node.dir/iot_node.cpp.o
 iot_node: CMakeFiles/iot_node.dir/build.make
-iot_node: ../lib_x64/googlemock/gtest/libgtest.a
-iot_node: ../lib_x64/mqtt/libpaho-mqtt3a.so
-iot_node: ../lib_x64/mqtt/libmqttpp.so
-iot_node: /home/mikel/boost_1_63_0/stage/lib/libboost_system.so
-iot_node: /home/mikel/boost_1_63_0/stage/lib/libboost_thread.so
+iot_node: ../lib_ARM32/googlemock/gtest/libgtest.a
+iot_node: ../lib_ARM32/mqtt/libpaho-mqtt3a.so
+iot_node: ../lib_ARM32/mqtt/libmqttpp.so
+iot_node: ../lib_ARM32/Boost_ARM_lib/libboost_system.a
 iot_node: CMakeFiles/iot_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikel/workspace/OceansOfThings/IoT_Node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable iot_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iot_node.dir/link.txt --verbose=$(VERBOSE)
@@ -741,13 +740,13 @@ CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/sensors/sensor_factory
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/communication/serial/CallbackAsyncSerial.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/communication/serial/BufferedAsyncSerial.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/communication/serial/AsyncSerial.cpp.o.requires
-CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/message.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/token.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/topic.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/client.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/src/paho.mqtt.cpp/src/iclient_persistence.cpp.o.requires
+CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/mqtt_endpoint.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/delivery_action_listener.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/action_listener.cpp.o.requires
 CMakeFiles/iot_node.dir/requires: CMakeFiles/iot_node.dir/connectivity/mqtt/Paho_MQTT_Unit_Test_Async/callbackAsyncPublish.cpp.o.requires

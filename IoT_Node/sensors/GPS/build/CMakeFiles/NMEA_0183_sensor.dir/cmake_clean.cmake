@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/BufferedAsyncSerial.cpp.o"
   "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/communication/serial/AsyncSerial.cpp.o"
   "CMakeFiles/NMEA_0183_sensor.dir/NMEA_0183_sensor.cpp.o"
-  "CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o"
   "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.cpp.o"
   "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/iot_sensor_factory.cpp.o"
   "CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o"

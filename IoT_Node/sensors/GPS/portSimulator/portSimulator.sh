@@ -6,7 +6,7 @@
 file="/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/GPS/portSimulator/GPS_data.txt"
 
 while IFS='' read -r line || [[ -n "$line" ]]; do
-    echo "$line" > /dev/pts/22
+    echo "$line" > /dev/pts/18
 	sleep 1
 done < "$file"
 

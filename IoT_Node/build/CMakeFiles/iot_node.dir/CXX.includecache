@@ -16376,6 +16376,30 @@ string
 memory
 -
 
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+stdio.h
+-
+MQTTClientPersistence.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
+stdio.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/stdio.h
+stdlib.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/stdlib.h
+string.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/string.h
+MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+stdio.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/stdio.h
+stdlib.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/stdlib.h
+string.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/string.h
+MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
+
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTClientPersistence.h
+
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/async_client.cpp
 mqtt/async_client.h
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
@@ -16415,8 +16439,8 @@ cstring
 -
 
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/async_client.h
-MQTTAsync.h
-/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/MQTTAsync.h
+../../../paho.mqtt.c/src/MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
 mqtt/token.h
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/mqtt/token.h
 mqtt/delivery_token.h
@@ -16453,8 +16477,8 @@ memory
 -
 
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/iclient_persistence.h
-MQTTAsync.h
-/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/MQTTAsync.h
+../../../paho.mqtt.c/src/MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
 mqtt/ipersistable.h
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/mqtt/ipersistable.h
 string
@@ -16465,8 +16489,8 @@ vector
 -
 
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/message.h
-MQTTAsync.h
-/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/MQTTAsync.h
+../../../paho.mqtt.c/src/MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
 string
 -
 memory
@@ -16475,8 +16499,8 @@ stdexcept
 -
 
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/token.h
-MQTTAsync.h
-/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/MQTTAsync.h
+../../../paho.mqtt.c/src/MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
 mqtt/iaction_listener.h
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/mqtt/iaction_listener.h
 mqtt/exception.h
@@ -16497,8 +16521,8 @@ chrono
 -
 
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/topic.h
-MQTTAsync.h
-/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/MQTTAsync.h
+../../../paho.mqtt.c/src/MQTTAsync.h
+/home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.c/src/MQTTAsync.h
 mqtt/delivery_token.h
 /home/mikel/workspace/OceansOfThings/IoT_Node/connectivity/mqtt/src/paho.mqtt.cpp/src/mqtt/mqtt/delivery_token.h
 mqtt/message.h

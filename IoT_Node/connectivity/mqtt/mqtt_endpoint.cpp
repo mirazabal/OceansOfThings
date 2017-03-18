@@ -37,9 +37,13 @@ namespace mqtt_end
 
 	void mqtt_endpoint::connect(std::string const & uri)
 	{
-		if(pImpl->client_ == nullptr)
-			pImpl->client_ = std::make_unique<mqtt::async_client>(uri, "client_id");
+		if(pImpl->client_ == nullptr){
+			std::unique_ptr<mqtt::async_client> uP(new mqtt::async_client(uri, "client_id"));
+			pImpl->client_ = std::move(uP);
 
+//			pImpl->client_ = std::make_unique<mqtt::async_client>(uri, "client_id");
+		
+		}
 		pImpl->client_->set_callback( pImpl->cb );		
 	
 		mqtt::itoken_ptr conntok = pImpl->client_->connect();

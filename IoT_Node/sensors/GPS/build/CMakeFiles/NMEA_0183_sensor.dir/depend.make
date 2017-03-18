@@ -4442,29 +4442,3 @@ CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sen
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp
 CMakeFiles/NMEA_0183_sensor.dir/home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor_factory.h
 
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: ../NMEA_0183/include/gtest/gtest.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-death-test.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-message.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-param-test.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-printers.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-test-part.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest-typed-test.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest_pred_impl.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/gtest_prod.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-filepath.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-internal.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-linked_ptr.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-param-util-generated.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-param-util.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-port.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-string.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-tuple.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/include/gtest/internal/gtest-type-util.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: ../NMEA_0183_sensor.h
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: ../unit-test.cpp
-CMakeFiles/NMEA_0183_sensor.dir/unit-test.cpp.o: /home/mikel/workspace/OceansOfThings/IoT_Node/sensors/sensor.h
-
