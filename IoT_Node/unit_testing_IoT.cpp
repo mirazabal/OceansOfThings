@@ -25,19 +25,17 @@ protected:
 
 	virtual void SetUp() {
 
-		std::string uri{"tcp://localhost:1883"};
+		std::string uri {"tcp://192.168.1.12:1883"};
 		std::shared_ptr<NMEA_0183_sensor> sens;
 		ASSERT_NO_THROW( sens = std::make_shared<NMEA_0183_sensor>()  );
 		node.add_sensor("GPS", sens);
-		std::cout << "After GPS add sensor" << std::endl;
 //		node.try_connect("tcp://5.10.201.121:1883");
 
 		node.try_connect(uri);
-
 	}
 
 	virtual void TearDown() {
-	 }
+	}
 
 	iot_node node;
 };

@@ -89,7 +89,7 @@ void NMEA_0183_sensor::Impl::parse_module_gprmc()
 
 void NMEA_0183_sensor::Impl::initSerialPort()
 {
-	static std::string const portName{"/dev/pts/19"};
+	static std::string const portName{"/dev/pts/2"};
 	static constexpr size_t const portSpeed{115200};
 
 	try{
