@@ -21,10 +21,52 @@ http.request(options, function(res) {
 */
 
 
-var http = require('https');
+var https = require('http');
+
+/**
+ * HOW TO Make an HTTP Call - GET
+ */
+// options for GET
+var optionsget = {
+    host : '52.178.32.138', // here only the domain name
+    // (no http/https !)
+    port : 80,
+    path : '/restdevices.svc/comebacktest/Hello', // the rest of the url with parameters if needed
+    method : 'GET' // do GET
+};
+ 
+console.info('Options prepared:');
+console.info(optionsget);
+console.info('Do the GET call');
+ 
+// do the GET request
+var reqGet = https.request(optionsget, function(res) {
+    console.log("statusCode: ", res.statusCode);
+    // uncomment it for header details
+//  console.log("headers: ", res.headers);
+ 
+ 
+    res.on('data', function(d) {
+        console.info('GET result:\n');
+        process.stdout.write(d);
+        console.info('\n\nCall completed');
+    });
+ 
+});
+ 
+reqGet.end();
+reqGet.on('error', function(e) {
+    console.error(e);
+});
+
+
+
+
 /**
  * HOW TO Make an HTTP Call - POST
  */
+
+
 // do a POST request
 // create the JSON object
 jsonObject = JSON.stringify({
@@ -78,4 +120,6 @@ reqPost.end();
 reqPost.on('error', function(e) {
     console.error(e);
 });
+
+
 
