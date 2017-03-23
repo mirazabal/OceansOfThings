@@ -25,7 +25,7 @@ protected:
 
 	virtual void SetUp() {
 
-		std::string uri {"tcp://192.168.1.12:1883"};
+		std::string uri {"tcp://52.178.32.138:1883"};
 		std::shared_ptr<NMEA_0183_sensor> sens;
 		ASSERT_NO_THROW( sens = std::make_shared<NMEA_0183_sensor>()  );
 		node.add_sensor("GPS", sens);
@@ -59,17 +59,18 @@ TEST_F(IoT_Test, SendDataGPS) {
 
 int main(int argc, char **argv) {
 	
-	system("./../IoT_Server/NodeMQTT/nodeBroker.sh");
+//	system("./../IoT_Server/NodeMQTT/nodeBroker.sh");
 
-	std::thread t( [&](){system("./sensors/GPS/portSimulator/portSimulator.sh");} ) ;
+	while(true){
+		std::thread t( [&](){system("./sensors/GPS/portSimulator/portSimulator.sh");} ) ;
 	
-	::testing::InitGoogleTest(&argc, argv);
+		::testing::InitGoogleTest(&argc, argv);
 	
-	auto retVal = RUN_ALL_TESTS();
+		auto retVal = RUN_ALL_TESTS();
 
-	t.join();
+		t.join();
+	}
 
-	return retVal;
-
+	return 0;
 }
 
