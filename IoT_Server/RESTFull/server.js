@@ -31,7 +31,7 @@ var optionsget = {
     host : '52.178.32.138', // here only the domain name
     // (no http/https !)
     port : 80,
-    path : '/restdevices.svc/comebacktest/Hello', // the rest of the url with parameters if needed
+    path : '/restdevices.svc/comebacktest/Antifa', // the rest of the url with parameters if needed
     method : 'GET' // do GET
 };
  
@@ -66,7 +66,7 @@ reqGet.on('error', function(e) {
  * HOW TO Make an HTTP Call - POST
  */
 
-
+/*
 // do a POST request
 // create the JSON object
 jsonObject = JSON.stringify({
@@ -121,5 +121,5 @@ reqPost.on('error', function(e) {
     console.error(e);
 });
 
-
+*/
 

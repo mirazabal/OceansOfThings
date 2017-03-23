@@ -32,15 +32,24 @@ server.on('clientConnected', function(client) {
  
 server.on('published', function(packet, client) {
  
-	var path_ = "/restdevices.svc/comebacktest/"; 
-	if(packet.payload.toString('utf-8').indexOf("/n") == -1 )
-		path_ += packet.payload.toString('utf-8'); 
-	
-	var optionsget = {
+	console.log('Published ', packet.topic, packet.payload.toString('utf-8') );
+ 
+
+
+
+
+
+
+
+/**
+ * HOW TO Make an HTTP Call - GET
+ */
+// options for GET
+var optionsget = {
     host : '52.178.32.138', // here only the domain name
     // (no http/https !)
     port : 80,
-    path :  path_, // the rest of the url with parameters if needed
+    path : '/restdevices.svc/comebacktest/Antifa', // the rest of the url with parameters if needed
     method : 'GET' // do GET
 };
  
@@ -62,9 +71,13 @@ var reqGet = https.request(optionsget, function(res) {
     });
  
 });
-    
-	console.log('Published ', packet.topic, packet.payload.toString('utf-8') );
-  
+ 
+reqGet.end();
+reqGet.on('error', function(e) {
+    console.error(e);
+});
+
+
 });
  
 function setup() {
