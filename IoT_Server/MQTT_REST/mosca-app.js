@@ -32,11 +32,15 @@ server.on('clientConnected', function(client) {
  
 server.on('published', function(packet, client) {
  
+	var path_ = "/restdevices.svc/comebacktest/"; 
+	if(packet.payload.toString('utf-8').indexOf("/n") == -1 )
+		path_ += packet.payload.toString('utf-8'); 
+	
 	var optionsget = {
     host : '52.178.32.138', // here only the domain name
     // (no http/https !)
     port : 80,
-    path : '/restdevices.svc/comebacktest/' +  packet.payload.toString('utf-8') , // the rest of the url with parameters if needed
+    path :  path_, // the rest of the url with parameters if needed
     method : 'GET' // do GET
 };
  
