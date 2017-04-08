@@ -31,7 +31,7 @@ var optionsget = {
     host : '52.178.32.138', // here only the domain name
     // (no http/https !)
     port : 80,
-    path : '/restdevices.svc/comebacktest/Antifa', // the rest of the url with parameters if needed
+    path : '/restdevices.svc/comebacktest/A', // the rest of the url with parameters if needed
     method : 'GET' // do GET
 };
  

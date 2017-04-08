@@ -1,0 +1,3 @@
+/home/byte/workspace/IoTHack/AzurreClient/build/CMakeFiles/edit_cache.dir
+/home/byte/workspace/IoTHack/AzurreClient/build/CMakeFiles/rebuild_cache.dir
+/home/byte/workspace/IoTHack/AzurreClient/build/CMakeFiles/iothub_client_sample_mqtt.dir
