@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var mocha = require('gulp-mocha');
 
 gulp.task('test', function() {
+	console.log("into gulp task");
   var error = false;
   gulp.
     src('./test.js').

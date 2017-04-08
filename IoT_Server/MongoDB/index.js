@@ -1,3 +1,5 @@
+console.log("Chupame los huevos");
+
 var MongoClient = require('mongodb').MongoClient
 , test = require('assert');
 

@@ -13,7 +13,6 @@ describe('Mongoose Schemas', function() {
 	var NMEA_0183;
 
 	before(function() {
-
 		//  Bootstrap server
 		models = require('./models')(wagner);
 		//  dependencies = require('./dependencies')(wagner);
