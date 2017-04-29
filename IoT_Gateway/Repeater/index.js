@@ -1,6 +1,5 @@
-var MongoClient = require('mongodb').MongoClient
+/*var MongoClient = require('mongodb').MongoClient
 , test = require('assert');
-
 
 // Connection url
 var url = 'mongodb://localhost:27017/test';
@@ -11,4 +10,4 @@ MongoClient.connect(url, function(err, db) {
 	db.close();
 });
 
-
+*/

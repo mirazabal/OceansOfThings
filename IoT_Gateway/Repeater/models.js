@@ -2,7 +2,7 @@
 
 var _ = require('underscore');
 var mosca = require('mosca')
-var  mqtt = require ('mqtt');
+var mqtt = require ('mqtt');
 
 var backjack = {
   type: 'redis',
@@ -27,7 +27,6 @@ module.exports = function(wagner){
 	var MQTT_server = new mosca.Server(moscaSettings);
 	MQTT_server.on('ready', setup);
 
-
 	MQTT_server.on('clientConnected', function(client) {
 		console.log('client connected', client.id);  
 	});
@@ -39,11 +38,6 @@ module.exports = function(wagner){
 	function setup() {
 		console.log('Mosca server is up and running')
 	}
-
-	wagner.factory('MQTT_server', function(){
-		return MQTT_server;
-	});
-
 
 	var MQTT_client = mqtt.connect('mqtt://localhost');
 	MQTT_client.on('connect', function (done) {

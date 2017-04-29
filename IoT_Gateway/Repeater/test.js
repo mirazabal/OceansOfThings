@@ -6,13 +6,13 @@
 
 var assert = require('assert');
 var wagner = require('wagner-core');
-var sleep = require('sleep'); 
+var mqtt = require ('mqtt');
 
 describe('MQTT and REST calls server', function() {
-	
+
 	var MQTT_server;
-	var MQTT_client;
-	var REST_server;
+		var MQTT_client;
+		var REST_server;
 
 	before(function() {
 		//  Bootstrap server
@@ -46,14 +46,13 @@ describe('MQTT and REST calls server', function() {
 			done();
 		});
 	});
-	
+
 	function isRunning(process,cb) {
 		var checkCommand = 'ps -A | grep ' + process;
 		var execOptions = {};
 
 		const exec = require('child_process').exec;		
 		exec(checkCommand, execOptions, function( err, stdout ) {
-			
 			if ( err ) {
 				cb(false);
 				return;
@@ -67,34 +66,21 @@ describe('MQTT and REST calls server', function() {
 		});
 	}
 
-
-describe('Gateway ', function() {
-
-
 	it('does accept mqtt client connection', function(done) {
-/*
-		var client  = mqtt.connect('mqtt://localhost');
-
-		client.on('connect', function (done) {
+		this.timeout(10000);
+		var _client = mqtt.connect('mqtt://localhost');
+		_client.on('connect', function () {
 			console.log('connected');
-			client.end();
+			_client.end();	
 			done();
 		});
-*/
-		sleep.sleep(10);
-	//	assert.equal(1,2);
-		done();
 	});
-/*
-	it('has data', function() {
+
+	it('does connect to external server', function() {
+
 
 	});
 
-	it('has timestamp', function() {
-
-	});
-*/
-});
 });
 
 

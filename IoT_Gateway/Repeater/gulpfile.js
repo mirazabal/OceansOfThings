@@ -8,7 +8,6 @@ gulp.task('test', function() {
     src('./test.js').
     pipe(mocha()).
     on('error', function() {
-		console.log("Test really failed");
   		console.log('Tests failed!');
       error = true;
     }).
