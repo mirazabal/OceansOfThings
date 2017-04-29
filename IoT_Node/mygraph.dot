@@ -1,0 +1,16 @@
+digraph dependencies {
+  "communication.serial" [shape=oval];
+  "connectivity.mqtt.Paho_MQTT_Unit_Test_Async" [shape=oval];
+  "sensors.GPS" [shape=oval];
+  "sensors.GPS" -> "sensors.GPS.NMEA_0183.gpgll" [color=lightblue];
+  "sensors.GPS" -> "sensors.GPS.NMEA_0183" [color=lightblue];
+  "sensors.GPS" -> "sensors.GPS.NMEA_0183.gprmc" [color=lightblue];
+  "sensors.GPS" -> "sensors.GPS.NMEA_0183.gpgga" [color=lightblue];
+  "sensors.GPS.NMEA_0183.gpgga" [shape=oval];
+  "connectivity.mqtt.Paho_MQTT_Unit_Test" [shape=oval];
+  "databases.SQLite" [shape=oval];
+  "sensors.GPS.NMEA_0183.gprmc" [shape=oval];
+  "sensors.GPS.NMEA_0183" [shape=oval];
+  "sensors.GPS.NMEA_0183" -> "databases.SQLite" [color=lightblue];
+  "sensors.GPS.NMEA_0183.gpgll" [shape=oval];
+}

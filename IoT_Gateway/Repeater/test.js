@@ -6,10 +6,12 @@
 
 var assert = require('assert');
 var wagner = require('wagner-core');
+var sleep = require('sleep'); 
 
-describe('Mongoose Schemas', function() {
+describe('MQTT and REST calls server', function() {
 	
 	var MQTT_server;
+	var MQTT_client;
 	var REST_server;
 
 	before(function() {
@@ -20,83 +22,86 @@ describe('Mongoose Schemas', function() {
 		// Make models available in tests
 		var deps = wagner.invoke(function(MQTT_server ){
 			return {
-				MQTT_server : MQTT_server
+				MQTT_server : MQTT_server,
+				MQTT_client : MQTT_client
 			};
 		});
 
 		MQTT_server = deps.MQTT_server;
-		
-
-		/*
-
-
-		//  Bootstrap server
-		models = require('./models')(wagner);
-		//  dependencies = require('./dependencies')(wagner);
-
-		// Make models available in tests
-		var deps = wagner.invoke(function(NMEA_0183){
-			return {
-				NMEA_0183: NMEA_0183
-			};
-		});
-
-		NMEA_0183 = deps.NMEA_0183;
-
-		NMEA_0183.findOne({}, function(error, user) {
-			assert.ifError(error);
-		});*/
+		MQTT_client = deps.MQTT_client;	
 	});
 
-/*
 	beforeEach(function(done) {
-		NMEA_0183.remove({}, function(error){
-				assert.ifError(error);
-				done();
-				});
-	});
-	
 
-	beforeEach(function(done) {
-		var NMEA_0183_Arr = [
-		{ 'nodeID': "Node_1", 'type' : 'GPGLL', 'data': 'asdasd'},
-		{ 'nodeID': 'Node_1' ,  'type' : 'GPGGA', 'data': '456asdasd'},
-		{ 'nodeID': 'Node_1' , 'type' : 'GPRMC', 'data': 'La carta dice el motivo que Roberto'}
-		];
-
-		NMEA_0183.create(NMEA_0183_Arr, function(error){
-			assert.ifError(error);
+		isRunning('redis-server', function(retVal){
+			if( retVal == false ){
+				console.log('redis-server not running');
+				var spawn = require('child_process').spawn;
+				function shspawn(command) {
+					spawn('sh', ['-c', command], { stdio: 'inherit' });
+				} 
+				//shspawn('ls -l | grep test | wc -c');
+				shspawn('redis-server &');
+			}
 			done();
 		});
 	});
+	
+	function isRunning(process,cb) {
+		var checkCommand = 'ps -A | grep ' + process;
+		var execOptions = {};
 
+		const exec = require('child_process').exec;		
+		exec(checkCommand, execOptions, function( err, stdout ) {
+			
+			if ( err ) {
+				cb(false);
+				return;
+			}
+			if ( stdout ) {
+				cb(true);
+				return;
+				//cb(true, stdout);
+			}
+			cb(false);
+		});
+	}
+
+
+describe('Gateway ', function() {
+
+
+	it('does accept mqtt client connection', function(done) {
+/*
+		var client  = mqtt.connect('mqtt://localhost');
+
+		client.on('connect', function (done) {
+			console.log('connected');
+			client.end();
+			done();
+		});
 */
-	describe('GPS data', function() {
-
-		it('has a type', function() {
-			assert.equal(1,1);
-				
-		});
-
-		it('has data', function() {
-	
-		});
-		
-		it('has timestamp', function() {
-	
-		});
+		sleep.sleep(10);
+	//	assert.equal(1,2);
+		done();
+	});
+/*
+	it('has data', function() {
 
 	});
+
+	it('has timestamp', function() {
+
+	});
+*/
+});
 });
 
 
 /*
 
-console.log("Su puta madre");
 
 describe('Gateway', function() {
-	
-	console.log("Su puta madre");
 	
 	var MQTT_Server;
 	var REST_Server;

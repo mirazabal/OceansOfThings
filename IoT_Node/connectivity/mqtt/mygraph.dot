@@ -1,0 +1,4 @@
+digraph dependencies {
+  "Paho_MQTT_Unit_Test_Async" [shape=oval];
+  "Paho_MQTT_Unit_Test" [shape=oval];
+}

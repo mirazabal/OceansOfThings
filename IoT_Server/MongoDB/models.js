@@ -1,4 +1,4 @@
-var mongoose = require('mongoose');
+ar mongoose = require('mongoose');
 var _ = require('underscore');
 
 module.exports = function(wagner){
