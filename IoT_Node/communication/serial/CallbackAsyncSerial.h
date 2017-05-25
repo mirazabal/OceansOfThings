@@ -12,12 +12,12 @@ namespace serial
  * from one thread, and read data will be reported through a callback called
  * from a separate thred.
  */
-class CallbackAsyncSerial: public AsyncSerial
+class CallbackAsyncSerial final: public AsyncSerial
 {
 public:
 
     CallbackAsyncSerial();
-    virtual ~CallbackAsyncSerial();
+    ~CallbackAsyncSerial();
 
     /**
     * Opens a serial device.

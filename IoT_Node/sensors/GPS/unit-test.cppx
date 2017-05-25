@@ -13,7 +13,6 @@ namespace
 	{
 		protected:
 		virtual ~NMEA_0183_sensor_TEST(){};
-	
 
 		virtual void SetUp(){
 			std::function< void ( const char* data, size_t size) > fp = [](const char* d, size_t t){
